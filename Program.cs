@@ -12,4 +12,11 @@
 
         double b = double.Parse(Console.ReadLine());
         }
+    static void Sub(double a, double b)
+    {
+
+        Console.WriteLine(a - b);
+
     }
+
+}
