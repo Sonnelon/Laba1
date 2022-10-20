@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
-    internal class Program
+internal class Program
     {
         static void Main(string[] args)
         {
@@ -11,6 +12,15 @@
         Console.WriteLine("Введите 2 чилсо");
 
         double b = double.Parse(Console.ReadLine());
+
+         Sum(a, b);
+         Sub(a, b);
+         Del(a, b);
+         Der(a, b);
+
+      }
+
+    }
 
 
 
