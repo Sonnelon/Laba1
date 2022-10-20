@@ -11,7 +11,21 @@
         Console.WriteLine("Введите 2 чилсо");
 
         double b = double.Parse(Console.ReadLine());
+
+
+
+
+
         }
+
+
+
+
+
+
+
+
+
     static void Sub(double a, double b)
     {
 
