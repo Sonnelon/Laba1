@@ -12,4 +12,10 @@
 
         double b = double.Parse(Console.ReadLine());
         }
+        
+            static void Sum(double a, double b)
+            {
+                Console.WriteLine(a + b);   
+            }
     }
+                     
