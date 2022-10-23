@@ -11,7 +11,7 @@ internal class Program
 
         Console.WriteLine("Введите 2 чилсо");
 
-        double b = double.Parse(Console.ReadLine()); Der(a, b);
+        double b = double.Parse(Console.ReadLine()); Der(a, b); Sub(a, b);
            }
 
              static void Der(double a, double b)
@@ -19,9 +19,7 @@ internal class Program
                Console.WriteLine(Math.Pow(a,b));
             }
     
-        double b = double.Parse(Console.ReadLine());
-
-         Sub(a, b);
+        
 
 
         static void Sub(double a, double b)
