@@ -11,5 +11,11 @@
         Console.WriteLine("Введите 2 чилсо");
 
         double b = double.Parse(Console.ReadLine());
+
+        }
+        
+          static void Del(double a, double b)
+        {
+             Console.WriteLine(a/b);
         }
     }
