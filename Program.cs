@@ -10,6 +10,11 @@ internal class Program
 
         Console.WriteLine("Введите 2 чилсо");
 
-        double b = double.Parse(Console.ReadLine());
+        double b = double.Parse(Console.ReadLine()); Der(a, b);
+           }
+
+             static void Der(double a, double b)
+            {
+               Console.WriteLine(Math.Pow(a,b));
+            }
     }
-}
