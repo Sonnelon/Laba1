@@ -14,14 +14,13 @@
         
         Der(a, b);
 
-        Sub(a, b);
-    }
+       
+   
 
              static void Der(double a, double b)
             {
                Console.WriteLine(Math.Pow(a,b));
             }
-    
       
 
     }
