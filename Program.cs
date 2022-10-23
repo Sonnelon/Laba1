@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
 internal class Program
@@ -13,7 +14,7 @@ internal class Program
 
         double b = double.Parse(Console.ReadLine());
 
-         Sub(a, b); Del(a, b);  
+         Sub(a, b); Del(a, b); Sum(a, b); Der(a, b);
 
     }
 
@@ -27,20 +28,16 @@ internal class Program
             {
                  Console.WriteLine(a/b);
             }
-        
-
-          
-    }
-                     
-
-        Sum(a, b); 
+       
  
-    static void Sum(double a, double b)
-    {
-        Console.WriteLine(a + b);
-    }
+            static void Sum(double a, double b)
+            {
+                Console.WriteLine(a + b);
+            }
 
-
-
+            static void Der(double a, double b)
+            {
+                Console.WriteLine(Math.Pow(a,b));
+            }
 }
 
