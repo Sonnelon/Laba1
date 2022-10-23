@@ -13,17 +13,18 @@ internal class Program
 
         double b = double.Parse(Console.ReadLine());
 
-         Sub(a, b);
+        Sub(a, b);
 
 
-         
-            static void Sub(double a, double b)
-            {
-                Console.WriteLine(a - b);
-            }
 
-          
-         
-          
+        static void Sub(double a, double b)
+        {
+            Console.WriteLine(a + b);
+        }
+
+
+
+
     }
-                     
+
+}
