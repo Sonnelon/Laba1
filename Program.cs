@@ -6,6 +6,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
+    internal class Program
+    {
+    static void Main(string[] args)
+    {
         Console.WriteLine("Введите 1 чилсо");
 
         double a = double.Parse(Console.ReadLine());
@@ -13,6 +17,8 @@ internal class Program
         Console.WriteLine("Введите 2 чилсо");
 
         double b = double.Parse(Console.ReadLine());
+
+    }
 
          Sub(a, b); Del(a, b); Sum(a, b); Der(a, b);
 
