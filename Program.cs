@@ -16,12 +16,14 @@ internal class Program
          Sub(a, b);
 
 
-        static void Sub(double a, double b)
-        {
+         
+            static void Sub(double a, double b)
+            {
+                Console.WriteLine(a - b);
+            }
 
-            Console.WriteLine(a - b);
-
-        }
-
+          
+         
+          
     }
-}
+                     
