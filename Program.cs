@@ -12,4 +12,9 @@
 
         double b = double.Parse(Console.ReadLine());
         }
+
+             static void Der(double a, double b)
+            {
+               Console.WriteLine(Math.Pow(a,b));
+            }
     }
