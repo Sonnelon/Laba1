@@ -4,15 +4,15 @@
     {
     static void Main(string[] args)
     {
-    static void Main(string[] args)
-    {
         Console.WriteLine("Введите 1 чилсо");
 
         double a = double.Parse(Console.ReadLine());
 
         Console.WriteLine("Введите 2 чилсо");
 
-         Sub(a, b); Del(a, b); Sum(a, b); Der(a, b);
+        double b = double.Parse(Console.ReadLine());
+
+        Sub(a, b); Del(a, b); Sum(a, b); Der(a, b);
 
     }
 
@@ -39,5 +39,4 @@
             }
 }
 
-}
 
