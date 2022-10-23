@@ -19,7 +19,7 @@ internal class Program
 
         static void Sub(double a, double b)
         {
-            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
         }
 
 
