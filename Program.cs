@@ -10,8 +10,8 @@
 
         Console.WriteLine("Введите 2 чилсо");
 
-        double b = double.Parse(Console.ReadLine());
-        }
+        double b = double.Parse(Console.ReadLine());  Вук
+           }
 
              static void Der(double a, double b)
             {
