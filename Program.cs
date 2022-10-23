@@ -13,7 +13,7 @@ internal class Program
 
         double b = double.Parse(Console.ReadLine());
 
-         Sub(a, b); 
+         Sub(a, b); Del(a, b);  
 
     }
 
