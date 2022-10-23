@@ -14,10 +14,10 @@
 
         }
         
-          static void Del(double a, double b)
-        {
-             Console.WriteLine(a/b);
-        }
+            static void Del(double a, double b)
+            {
+                 Console.WriteLine(a/b);
+            }
         
           
     }
