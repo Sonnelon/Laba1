@@ -13,7 +13,7 @@ internal class Program
 
         double b = double.Parse(Console.ReadLine());
 
-        Der(a, b); Sub(a, b);
+        Der(a, b); Sub(a, b); Del(a, b);
 
     }
 
@@ -28,4 +28,13 @@ internal class Program
             }
 
     
-}
+
+        
+            static void Del(double a, double b)
+            {
+                 Console.WriteLine(a/b);
+            }
+        
+          
+    }
+                     
