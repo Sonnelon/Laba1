@@ -23,10 +23,5 @@
                Console.WriteLine(Math.Pow(a,b));
             }
 
-            static void Sub(double a, double b)
-            {
-                Console.WriteLine(a - b);
-            }
-
     
-}
+
