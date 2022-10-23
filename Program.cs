@@ -2,9 +2,9 @@
 using System.Security.Cryptography.X509Certificates;
 
 internal class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
         Console.WriteLine("Введите 1 чилсо");
 
         double a = double.Parse(Console.ReadLine());
@@ -13,34 +13,15 @@ internal class Program
 
         double b = double.Parse(Console.ReadLine());
 
-         Sum(a, b);
          Sub(a, b);
-         Del(a, b);
-         Der(a, b);
-
-      }
-
-    }
 
 
+        static void Sub(double a, double b)
+        {
 
-
+            Console.WriteLine(a - b);
 
         }
 
-
-
-
-
-
-
-
-
-    static void Sub(double a, double b)
-    {
-
-        Console.WriteLine(a - b);
-
     }
-
 }
