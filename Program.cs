@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 internal class Program
 {
@@ -14,7 +15,21 @@ internal class Program
            }
 
              static void Der(double a, double b)
-            {
+            { 
                Console.WriteLine(Math.Pow(a,b));
             }
+    
+        double b = double.Parse(Console.ReadLine());
+
+         Sub(a, b);
+
+
+        static void Sub(double a, double b)
+        {
+
+            Console.WriteLine(a - b);
+
+        }
+
     }
+}
