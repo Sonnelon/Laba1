@@ -19,9 +19,6 @@
              Console.WriteLine(a/b);
         }
         
-            static void Sum(double a, double b)
-            {
-                Console.WriteLine(a + b);   
-            }
+          
     }
                      
