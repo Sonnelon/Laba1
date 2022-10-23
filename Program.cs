@@ -10,24 +10,15 @@
 
         double b = double.Parse(Console.ReadLine());
 
-        Der(a, b); Sub(a, b); Del(a, b);
+        Sum(a, b); 
 
     }
-
-    static void Der(double a, double b)
+ 
+    static void Sum(double a, double b)
     {
-        Console.WriteLine(Math.Pow(a, b));
+        Console.WriteLine(a + b);
     }
 
-    static void Sub(double a, double b)
-    {
-        Console.WriteLine(a - b);
-    }
-
-    static void Del(double a, double b)
-    {
-        Console.WriteLine(a / b);
-    }
 
 
 }
